@@ -43,6 +43,17 @@ Optional tests may be run with the command (which may or may not require ``sudo`
    python setup.py test
 
 
+Dependencies
+-------------
+
+pyvolve has several dependencies which must be installed and in your ``PYTHONPATH`` for pyvolve to run properly. 
+
+1. [NumPy](https://www.numpy.org)
+2. [SciPy](https://www.scipy.org)
+3. [Biopython](http://biopython.org/wiki/Main_Page)
+
+A good downloading option is to simply install the [Anaconda python distribution](http://continuum.io/downloads), which includes all of these packages.
+
 Contents
 -----------
 

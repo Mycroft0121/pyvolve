@@ -49,11 +49,11 @@ Dependencies
 
 pyvolve has several dependencies which must be installed and in your ``PYTHONPATH`` for pyvolve to run properly. 
 
-1. [NumPy](https://www.numpy.org)
-2. [SciPy](https://www.scipy.org)
-3. [Biopython](http://biopython.org/wiki/Main_Page)
+1. `NumPy <https://www.numpy.org/>`_
+2. `SciPy <https://www.scipy.org/>`_
+3. `Biopython <http://biopython.org/wiki/Main_Page>`_
 
-A good downloading option is to simply install the [Anaconda python distribution](http://continuum.io/downloads), which includes all of these packages.
+A good downloading option is to simply install the `Anaconda python distribution <http://continuum.io/downloads>`_, which includes all of these libaries..
 
 Contents
 -----------

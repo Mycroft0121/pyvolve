@@ -6,7 +6,8 @@
 Welcome to pyvolve's documentation!
 ===================================
 
-pyvolve is a python library for simulating sequences along a phylogeny using continuous-time Markov models. pyvolve implements a wide variety of [standard modeling frameworks](http://www.molecularevolution.org/resources/models/):
+pyvolve is a python library for simulating sequences along a phylogeny using continuous-time Markov models. pyvolve implements a wide variety of `standard modeling frameworks <http://www.molecularevolution.org/resources/models/>`_:
+
 
 1. Nucleotide models (GTR and all nested variants)
 2. Empirical amino acid models (JTT, WAG, and LG)

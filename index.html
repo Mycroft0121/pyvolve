@@ -50,10 +50,31 @@
             
   <div class="section" id="welcome-to-pyvolve-s-documentation">
 <h1>Welcome to pyvolve&#8217;s documentation!<a class="headerlink" href="#welcome-to-pyvolve-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Look, here are some more words.</p>
-<div class="section" id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
-<p>And here&#8217;s an overview of some variety.</p>
+<p>pyvolve is a python library for simulating sequences along a phylogeny using continuous-time Markov models. pyvolve implements a wide variety of [standard modeling frameworks](<a class="reference external" href="http://www.molecularevolution.org/resources/models/">http://www.molecularevolution.org/resources/models/</a>):</p>
+<ol class="arabic simple">
+<li>Nucleotide models (GTR and all nested variants)</li>
+<li>Empirical amino acid models (JTT, WAG, and LG)</li>
+<li>Codon (dN/dS) models (GY94-style and MG94-style)</li>
+<li>The ECM empirical codon model</li>
+<li>Mutation-selection models (Halpern and Bruno, 1998), implemented for both nucleotides and codons</li>
+</ol>
+<p>In particular, the pyvolve framework allows you to heavily customize your model, both in terms of stationary frequency parameters and rate matrix elements.</p>
+<div class="section" id="download-and-installation">
+<h2>Download and Installation<a class="headerlink" href="#download-and-installation" title="Permalink to this headline">¶</a></h2>
+<p>pyvolve is freely available for download and use from <a class="reference external" href="https://github.com/sjspielman/pyvolve">https://github.com/sjspielman/pyvolve</a>. Select the latest release (v0.1) from the &#8220;releases&#8221; tab to download. Once pyvolve has been downloaded, navigate to the directory in the terminal. To install for all users, enter these commands:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">build</span>
+<span class="n">sudo</span> <span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>Alternatively, to install locally for a specific user (or if you do not have root privileges), enter these commands:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">build</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span>
+</pre></div>
+</div>
+<p>Optional tests may be run with the command (which may or may not require <tt class="docutils literal"><span class="pre">sudo</span></tt>, depending on your install choice),</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">test</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="contents">
 <h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
@@ -91,7 +112,7 @@
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Welcome to pyvolve&#8217;s documentation!</a><ul>
-<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#download-and-installation">Download and Installation</a></li>
 <li><a class="reference internal" href="#contents">Contents</a></li>
 </ul>
 </li>
